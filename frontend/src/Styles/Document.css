@@ -1,0 +1,21 @@
+.document{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 85%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.document_info{
+    display: flex;
+    align-items: center;
+}
+
+.document_delete_btn:hover{
+    color: red;
+    cursor: pointer;
+}

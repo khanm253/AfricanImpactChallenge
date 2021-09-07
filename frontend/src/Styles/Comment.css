@@ -1,0 +1,39 @@
+.comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 4px;
+    width: 400px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    background-color: #29b6f6;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+.comment__main {
+    display: flex;
+    width: 100%;
+}
+
+.comment__btns {
+    display: flex;
+    align-items: center;
+}
+
+.comment__top{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.comment__editform {
+    width: 100%;
+}
+
+.comment__deletebtn:hover, .comment__editbtn:hover {
+    cursor: pointer;
+    color: violet;
+}

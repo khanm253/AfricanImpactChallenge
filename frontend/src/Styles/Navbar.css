@@ -1,0 +1,39 @@
+:root {
+    font-size: 20px;
+
+    --colour-primary-txt: rgb(196, 196, 196);
+    --colour-secondary-txt: rgb(255, 255, 255);
+    --colour-primary-bgd: rgb(51, 51, 51);
+    --colour-secondary-bgd: rgb(0, 0, 0);
+}
+
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+    background-color: var(--colour-primary-bgd);
+    color: var(--colour-primary-bgd);
+}
+
+
+a.navbar-item {
+    background-color: var(--colour-primary-bgd);
+    color: var(--colour-primary-txt);
+    
+}
+
+a.navbar-item:hover {
+    background-color: var(--colour-secondary-bgd);
+    color: var(--colour-secondary-txt);
+    transition: 0.3s;
+
+}
+
+a.navbar-item:focus,  .navbar-item:focus a{
+    background-color: var(--colour-secondary-bgd);
+    color: var(--colour-secondary-txt);
+    
+
+}

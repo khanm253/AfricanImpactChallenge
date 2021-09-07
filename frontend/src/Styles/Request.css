@@ -1,0 +1,31 @@
+.request{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.req_info{
+    display: flex;
+    align-items: center;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+}
+
+.req_reject:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.req_accept:hover{
+    color: green;
+    cursor: pointer;
+}

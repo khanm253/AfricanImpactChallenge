@@ -1,0 +1,10 @@
+.selectionPage{
+    margin-top: 13vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.home__page > a:hover{
+    cursor: pointer;
+}
